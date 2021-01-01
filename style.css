@@ -1,0 +1,64 @@
+*{
+	font-family: sans-serif ;
+	color: white;	
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(paris.jpg);
+	
+	height: 200vh;
+	background-size: cover;
+	background-position: center ;
+}
+ul{
+	float: right;
+	margin-top: 20px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
+	border: 1px solid transparent;
+	text-decoration: none;
+	
+	padding:5px 20px;
+	transition: 0.6s ease;
+	border-radius: 5px;
+}
+
+ul li a:hover
+{
+	background-color: blue;
+	color:white;
+}
+
+.main{
+	max-width: 1200px;
+	margin:auto;
+}
+.title{
+     position: absolute;
+	top:10%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	
+	font-size: 50px;
+	font-family: serif;
+
+	text-shadow: 2px 2px 4px blue;
+}
+h1:hover{
+	text-shadow:4px 4px 6px purple;
+
+}
+.images{
+	position: absolute;
+	top:70%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
